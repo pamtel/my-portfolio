@@ -1,0 +1,104 @@
+.App .sidebar {
+    width: 16%;
+    height: 100vh;
+    background-color: #191d2b;
+    position: fixed;
+    z-index: 11;
+    border-right: 1px solid #2e344e;
+    transform-origin: left;
+}
+
+.main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #10121B;
+    height: 100vh;
+}
+/* @media screen and (max-width: 1000px) {
+    .App .sidebar {
+        transition: all 0.4s ease-in-out;
+        transform: translateX(-100%);
+        width: 30%;
+   }
+}
+@media screen and (max-width: 411px) {
+    .App .sidebar {
+        width: 50%;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .App .nav-toggle {
+        transition: all 0.4s ease-in-out;
+        transform: translateX(0);
+   }
+}
+.App .main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #10121b;
+    min-height: 100vh;
+    background-image: url(../img/dots.svg);
+    display: grid;
+    position: relative;
+}
+.App .main-content .content {
+    margin: 5rem 15rem;
+}
+@media screen and (max-width: 1100px) {
+    .App .main-content .content {
+        margin: 2rem 10rem;
+   }
+}
+@media screen and (max-width: 1400px) {
+    .App .main-content .content {
+        margin: 3rem 10rem;
+   }
+}
+@media screen and (max-width: 1400px) {
+    .App .main-content .content {
+        margin: 3rem 10rem;
+   }
+}
+@media screen and (max-width: 710px) {
+    .App .main-content .content {
+        margin: 2rem 3rem;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .App .main-content {
+        margin-left: 0;
+        width: 100%;
+   }
+}
+.nav-btn {
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 5%;
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #3858cc;
+    pointer-events: none;
+    display: none;
+    border-radius: 20px;
+}
+.nav-btn .lines-1:not(:last-child), .nav-btn .lines-2:not(:last-child), .nav-btn .lines-3:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 1000px) {
+    .nav-btn {
+        display: block;
+   }
+    .nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
+        display: block;
+   }
+} */

@@ -1,0 +1,65 @@
+.NavBar {
+    height: 100vh;
+}
+.NavBar .nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar .nav .profile {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    border-bottom: 1px solid #2e344e;
+}
+.NavBar .nav .profile img {
+    width: 70%;
+    border-radius: 100%;
+    border: 5px solid #2e344e;
+    margin-bottom: 1rem;
+}
+.NavBar .nav .nav-items {
+    width: 100%;
+}
+.NavBar .nav .nav-items .nav-item {
+    list-style: none;
+    text-align: center;
+}
+.NavBar .nav .nav-items .nav-item a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+}
+.NavBar .nav .nav-items .nav-item a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.4rem;
+    height: 100%;
+    background-color: #0381ff 33;
+    transform-origin: bottom;
+    transform: scale(0);
+    overflow-x: hidden;
+    transition: transform 0.6s, 0.2s width 0.5s cubic-bezier(1, -0.16, 0.6, 1.35);
+}
+.NavBar .nav .nav-items .nav-item a:hover::before {
+    width: 100%;
+    transform: scale(1);
+}
+.NavBar .nav .footer {
+    width: 100%;
+    border-top: 1px solid #2e344e;
+}
+.NavBar .nav .footer p {
+    text-align: center;
+    padding: 1rem 0;
+}
+.active {
+    background-color: #037fff;
+}
