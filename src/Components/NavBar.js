@@ -23,6 +23,12 @@ function NavBar() {
                     </li>
 
                     <li className="nav-item">
+                        <NavLink to='/skills' activeClassName="active">
+                            Skills
+                        </NavLink>
+                    </li>
+
+                    <li className="nav-item">
                         <NavLink to='/portfolios' activeClassName="active">
                             Portfolios
                         </NavLink>

@@ -1,5 +1,8 @@
 @import './styles/layout';
+@import './styles/typography';
 @import './styles/navbar';
+@import './styles/title';
+@import './styles/about';
 
 *{
   padding: 0;
@@ -10,5 +13,9 @@
 body{
   color: #a4acc4;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: .8rem;
+}
+
+span{
+  color: #037FFF;
 }

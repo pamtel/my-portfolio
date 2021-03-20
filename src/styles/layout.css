@@ -14,7 +14,7 @@
     background-color: #10121B;
     height: 100vh;
 }
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .App .sidebar {
         transition: all 0.4s ease-in-out;
         transform: translateX(-100%);
@@ -95,10 +95,13 @@
     margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 1000px) {
+    .main-content {
+        height: auto;
+    }
     .nav-btn {
         display: block;
    }
     .nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
         display: block;
    }
-} */
+}
