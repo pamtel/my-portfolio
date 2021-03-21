@@ -3,6 +3,9 @@
 @import './styles/navbar';
 @import './styles/title';
 @import './styles/about';
+@import './styles/skills';
+@import './styles/contact';
+
 
 *{
   padding: 0;

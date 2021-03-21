@@ -12,6 +12,7 @@
     width: 100%;
     object-fit: cover;
     height: 100%;
+    margin-top: 5px;
 }
 .ImageSection .about-info {
     margin-left: 2rem;
@@ -67,19 +68,8 @@
 .btn:hover::after {
     width: 100%;
 }
-.skillsContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
-    row-gap: 3rem;
-    margin: 4rem 0;
-}
-@media screen and (max-width: 1100px) {
-    .skillsContainer {
-        grid-template-columns: repeat(1, 1fr);
-   }
-}
-.btn-port {
+
+/* .btn-port {
     padding: 0.6rem 2rem;
     background-color: #0381ff 5b;
     border: none;
@@ -109,7 +99,7 @@
     align-items: center;
     margin: 4rem 10rem;
     flex-wrap: wrap;
-}
+} */
 @media screen and (max-width: 1270px) {
     .buttons {
         margin: 2rem 5rem;
