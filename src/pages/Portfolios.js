@@ -1,9 +1,10 @@
 import React from 'react'
+import Tittle from '../Components/Tittle'
 
 function Portfolios() {
     return (
         <div>
-            Portfolios
+            <Tittle title={'Portfolios'} span={'Portfolios'}/>
         </div>
     )
 }

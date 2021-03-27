@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolios from './pages/Portfolios';
 import Contact from './pages/Contact';
-import { Switch, Route } from "react-router-dom";
 import Skills from './pages/Skills';
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
