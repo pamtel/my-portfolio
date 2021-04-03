@@ -12,10 +12,10 @@ function Home() {
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
-                    <span> Lorem ipsum</span>
+                    <span> Pamela Ahiante </span>
                 </h1>
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem adipisci voluptatem magni, ad natus amet laudantium voluptas laboriosam suscipit, nesciunt iure odio aspernatur eos? Saepe ipsam corrupti inventore eaque.</p>
+                 A full-stack developer with a flair for creating elegant solutions in the least amount of time. If you can imagine it, let's build it.</p>
                     <div className="icons">
                         <Link to="test" className="icon-holder">
                             <FontAwesomeIcon icon={faFacebook} className="icon fb"/>

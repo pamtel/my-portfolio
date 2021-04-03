@@ -8,12 +8,12 @@
     transform-origin: left;
 }
 
-.main-content {
+/* .main-content {
     width: 84%;
     margin-left: 16%;
     background-color: #10121B;
     height: 100vh;
-}
+} */
 @media screen and (max-width: 1000px) {
     .App .sidebar {
         transition: all 0.4s ease-in-out;
@@ -84,8 +84,8 @@
     cursor: pointer;
 }
 .nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
-    height: 0.4rem;
-    width: 100%;
+    height: 0.2rem;
+    width: 50%;
     background-color: #3858cc;
     pointer-events: none;
     display: none;

@@ -5,6 +5,7 @@
 @import './styles/about';
 @import './styles/skills';
 @import './styles/contact';
+@import './styles/portfolios';
 
 
 *{
@@ -16,7 +17,7 @@
 body{
   color: #a4acc4;
   font-family: 'Roboto', sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 span{

@@ -52,7 +52,7 @@
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 2px;
-    margin-top: 1rem;
+    margin-top: .1rem;
     position: relative;
 }
 .btn::after {
@@ -69,16 +69,16 @@
     width: 100%;
 }
 
-/* .btn-port {
+.btn-port {
     padding: 0.6rem 2rem;
-    background-color: #0381ff 5b;
+    background-color: #0381ff5b;
     border: none;
     outline: none;
     cursor: pointer;
     font-size: inherit;
     font-family: inherit;
     color: white;
-    margin-bottom: 1rem;
+    /* margin-bottom: .1rem; */
     transition: all 0.3s ease-in-out;
 }
 .btn-port:not(:last-child) {
@@ -97,13 +97,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 10rem;
-    flex-wrap: wrap;
-} */
+    margin: 2rem 0;
+    /* flex-wrap: wrap; */
+}
+
 @media screen and (max-width: 1270px) {
-    .buttons {
+    /* .buttons {
         margin: 2rem 5rem;
-   }
+   } */
 }
 @media screen and (max-width: 1100px) {
     .buttons {
@@ -117,5 +118,8 @@
         grid-template-columns: repeat(1, 1fr);
         column-gap: 2rem;
         margin-top: 3rem;
+    }
+    .btn-port {
+        padding: 0.2rem 1rem;
     }
 }

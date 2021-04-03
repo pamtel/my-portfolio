@@ -7,9 +7,9 @@ function Skills() {
         <div className="SkillsPage">
             <Tittle title={'My Skills'} span={'My Skills'}/>
             <div className="skillsContainer">
-                {skillsData.map((data) => {
+                {skillsData.map((data, index) => {
                     return (
-                        <div className="skill">
+                        <div key={index} className="skill">
                             <h4>{data.skill}</h4>
                         </div>
                     )
