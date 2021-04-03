@@ -12,6 +12,7 @@ function Portfolios() {
 
     const filter = (category) => {
         if(category === 'All'){
+            setCategories(allCategories)
             setMenuItems(portfolios)
             return;
         }
