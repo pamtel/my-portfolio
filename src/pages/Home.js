@@ -17,10 +17,10 @@ function Home() {
                 <p className="h-sub-text">
                  A full-stack developer with a flair for creating elegant solutions in the least amount of time. If you can imagine it, let's build it.</p>
                     <div className="icons">
-                        <Link to="test" className="icon-holder">
+                        <Link to="https://www.facebook.com/"className="icon-holder">
                             <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
                         </Link>
-                        <Link to="test" className="icon-holder">
+                        <Link to="https://github.com/pamtel"className="icon-holder">
                             <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                         </Link>
                         <Link to="test" className="icon-holder">
