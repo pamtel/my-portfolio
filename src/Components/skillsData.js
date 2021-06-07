@@ -31,4 +31,16 @@ export const skillsData = [
         id: 8,
         skill: "UI/UX"
     },
+    {
+        id: 9,
+        skill: "Redux"
+    },
+    {
+        id: 10,
+        skill: "Node"
+    },
+    {
+        id: 11,
+        skill: "Express"
+    },
 ]
