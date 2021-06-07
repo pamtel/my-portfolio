@@ -43,4 +43,8 @@ export const skillsData = [
         id: 11,
         skill: "Express"
     },
+    {
+        id: 12,
+        skill: "Material-Ui"
+    },
 ]

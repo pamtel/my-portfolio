@@ -1,6 +1,5 @@
 import React from 'react'
 import about from "../img/about.jpg";
-import { Link } from "react-router-dom";
 
 function ImageSection() {
     return (
@@ -26,9 +25,9 @@ function ImageSection() {
                             <p>State <span>: Edo state</span></p>
                         </div>
                 </div>
-                <Link to="http//:/Users/USER/Downloads/AHIANTE-PAMELA(Developer).pdf" className="text-decoration-none">
+                <a href="https://drive.google.com/file/d/14bdOWwdENRABVtAtn0ZOSsuWEz3DmJ2J/view?usp=sharing" target="blank" className="text-decoration-none">
                     <button className="btn">Download Cv</button>
-                </Link>
+                </a>
             </div>
         </div>
     )

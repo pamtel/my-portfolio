@@ -16,10 +16,8 @@
 }
 .NavBar .nav .profile img {
     width: 70%;
-    border-radius: 10%;
-    object-fit: cover;
-    object-position: center;
-    /* border: 1px solid #037fff; */
+    border-radius: 50%;
+    border: 5px solid #2e344e;
     margin-bottom: 1rem;
 }
 .NavBar .nav .nav-items {

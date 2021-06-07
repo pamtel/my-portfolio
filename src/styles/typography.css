@@ -42,3 +42,8 @@
 .icons .icon-holder .ig:hover {
     color: rgb(255, 116, 192);
 }
+@media screen and (max-width: 800px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+}

@@ -61,7 +61,7 @@
 }
 @media screen and (max-width: 710px) {
     .App .main-content .content {
-        margin: 2rem 3rem;
+        margin: 2rem 1rem;
    }
 }
 @media screen and (max-width: 1000px) {
