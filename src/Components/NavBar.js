@@ -42,7 +42,7 @@ function NavBar({navClick}) {
                 </ul>
 
                 <footer className="footer">
-                    <p>@2021 Pamtel</p>
+                    <p>@{(new Date().getFullYear())} Pamtel</p>
                 </footer>
             </nav>
         </div>
