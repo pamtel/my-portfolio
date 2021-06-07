@@ -30,9 +30,6 @@
     color: #a4acc4;
     transition: all 0.4s ease-in-out;
 }
-.icons .icon-holder .fb:hover {
-    color: blue;
-}
 .icons .icon-holder .gh:hover {
     color: rgba(212, 45, 212, 0.788);
 }

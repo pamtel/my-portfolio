@@ -8,12 +8,6 @@
     transform-origin: left;
 }
 
-/* .main-content {
-    width: 84%;
-    margin-left: 16%;
-    background-color: #10121B;
-    height: 100vh;
-} */
 @media screen and (max-width: 1000px) {
     .App .sidebar {
         transition: all 0.4s ease-in-out;
