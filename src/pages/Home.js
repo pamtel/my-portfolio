@@ -11,7 +11,7 @@ function Home() {
       <header className="hero">
         <h1 className="hero-text">
           <Typed 
-            strings={["Hi, I am", "Pamela Ahiante", "A fullstack developer", "Web designer"]}
+            strings={["Hi, I am", "Pamela Ahiante", "Fullstack developer", "Web designer"]}
             typeSpeed={50}
             backSpeed={60}
             loop

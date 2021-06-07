@@ -45,6 +45,6 @@ export const skillsData = [
     },
     {
         id: 12,
-        skill: "Material-Ui"
+        skill: "MaterialUi"
     },
 ]

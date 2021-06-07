@@ -1,6 +1,7 @@
-import port1 from '../img/portImages/port1.jpg';
-import port2 from '../img/portImages/port3.jpg';
-import port3 from '../img/portImages/port3.jpg';
+import port1 from '../img/portImages/port1.png';
+import port2 from '../img/portImages/port2.png';
+import port3 from '../img/portImages/port3.png';
+import port4 from '../img/portImages/port4.png';
 
 const portfolios = [
     {
@@ -40,7 +41,7 @@ const portfolios = [
         link2: 'https://mern-shopping-cart-client.netlify.app/',
         icon1: 'G',
         icon2: 'N',
-        image: port3,
+        image: port4,
         title: 'Fullstack Ecommerce site built with react, redux, mongodb, node & express',
     },
 ]
