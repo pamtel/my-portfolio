@@ -36,10 +36,10 @@ function ImageSection() {
               Nationality <span>: Nigerian</span>
             </p>
             <p>
-              Languages <span>: English</span>
+              Language <span>: English</span>
             </p>
             <p>
-              Address <span>: Ajah, Lagos</span>
+              Address <span>: Lekki-Ajah, Lagos</span>
             </p>
             <p>
               State <span>: Edo state</span>
