@@ -3,8 +3,33 @@ import port2 from "../img/portImages/port2.png";
 import port3 from "../img/portImages/port3.png";
 import port4 from "../img/portImages/port4.png";
 import port5 from "../img/portImages/port5.png";
+import port6 from "../img/portImages/port6.png";
+import port7 from "../img/portImages/port7.png";
+
 
 const portfolios = [
+  {
+    id: 6,
+    category: "Mernstack",
+    link1: "https://github.com/pamtel",
+    link2: "http://asm-web-dev.netlify.app/",
+    icon1: "G",
+    icon2: "N",
+    image: port6,
+    title:
+      "This school portal app is live",
+  },
+  {
+    id: 7,
+    category: "Mernstack",
+    link1: "https://github.com/pamtel",
+    link2: "https://asm-cbt-web.netlify.app/",
+    icon1: "G",
+    icon2: "N",
+    image: port7,
+    title:
+      "This is the cbt of the school app",
+  },
   {
     id: 1,
     category: "JavaScript",

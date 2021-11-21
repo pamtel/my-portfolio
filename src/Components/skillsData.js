@@ -9,7 +9,7 @@ export const skillsData = [
   },
   {
     id: 3,
-    skill: "SARS",
+    skill: "SASS",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const skillsData = [
   },
   {
     id: 8,
-    skill: "UI/UX",
+    skill: "MaterialUi",
   },
   {
     id: 9,
@@ -37,14 +37,30 @@ export const skillsData = [
   },
   {
     id: 10,
-    skill: "Node",
+    skill: "Node/Express",
   },
   {
     id: 11,
-    skill: "Express",
+    skill: "UI/UX",
   },
   {
     id: 12,
     skill: "MaterialUi",
+  },
+  {
+    id: 13,
+    skill: "TypeScript",
+  },
+  {
+    id: 14,
+    skill: "GraphQl",
+  },
+  {
+    id: 15,
+    skill: "RestApi",
+  },
+  {
+    id: 16,
+    skill: "Nextjs",
   },
 ];
