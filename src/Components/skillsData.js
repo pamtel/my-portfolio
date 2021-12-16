@@ -37,7 +37,7 @@ export const skillsData = [
   },
   {
     id: 10,
-    skill: "Node/Express",
+    skill: "Node",
   },
   {
     id: 11,
@@ -63,4 +63,8 @@ export const skillsData = [
     id: 16,
     skill: "Nextjs",
   },
+  {
+    id: 17,
+    skill: "Express"
+  }
 ];

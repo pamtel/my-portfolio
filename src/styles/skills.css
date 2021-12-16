@@ -7,7 +7,7 @@
 }
 .skill {
     background-color: #2e344e;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     text-align: center; 
     border-radius: 5rem;
     transition: 0.5s ease-in;
@@ -19,6 +19,10 @@
 @media screen and (max-width: 800px) {
     .skillsContainer {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
         margin: 6rem 0;
+   }
+   .skill {
+    max-width: 120px;
    }
 }
