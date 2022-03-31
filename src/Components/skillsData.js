@@ -1,70 +1,74 @@
 export const skillsData = [
   {
     id: 1,
-    skill: "Html5",
+    skill: 'Html5',
   },
   {
     id: 2,
-    skill: "CSS3",
+    skill: 'CSS3',
   },
   {
     id: 3,
-    skill: "SASS",
+    skill: 'SASS',
   },
   {
     id: 4,
-    skill: "Bootstrap",
+    skill: 'Bootstrap',
   },
   {
     id: 5,
-    skill: "Tailwind",
+    skill: 'Tailwind',
   },
   {
     id: 6,
-    skill: "JavaScript",
+    skill: 'JavaScript',
   },
   {
     id: 7,
-    skill: "React",
+    skill: 'React',
+  },
+  {
+    id: 18,
+    skill: 'Vue',
   },
   {
     id: 8,
-    skill: "MaterialUi",
+    skill: 'MaterialUi',
   },
   {
     id: 9,
-    skill: "Redux",
+    skill: 'Redux',
   },
   {
     id: 10,
-    skill: "Node",
+    skill: 'Node',
   },
   {
     id: 11,
-    skill: "UI/UX",
+    skill: 'UI/UX',
   },
   {
     id: 12,
-    skill: "MaterialUi",
+    skill: 'MaterialUi',
   },
   {
     id: 13,
-    skill: "TypeScript",
+    skill: 'TypeScript',
   },
   {
     id: 14,
-    skill: "GraphQl",
+    skill: 'GraphQl',
   },
   {
     id: 15,
-    skill: "RestApi",
+    skill: 'RestApi',
   },
   {
     id: 16,
-    skill: "Nextjs",
+    skill: 'Nextjs',
   },
   {
     id: 17,
-    skill: "Express"
-  }
+    skill: 'Express',
+  },
 ];
